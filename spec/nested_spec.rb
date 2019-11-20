@@ -4,7 +4,8 @@ require_relative "../nested.rb"
 describe "nested hash" do
   describe "hopper" do
     it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
-      binding.pry expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
+      binding.pry
+      expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
 
     end
   end
